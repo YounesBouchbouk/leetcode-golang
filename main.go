@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
@@ -45,9 +43,11 @@ func main() {
 	// treeStr := smallTe.String()
 	// fmt.Println(treeStr)
 
-	fmt.Println("merge interval [[1,3],[2,6],[8,10],[15,18]] ", merge([][]int{
-		{1, 4},
-		{5, 6},
-	}))
+	// fmt.Println("merge interval [[1,3],[2,6],[8,10],[15,18]] ", merge([][]int{
+	// 	{1, 4},
+	// 	{5, 6},
+	// }))
+	// fmt.Println("majorityElement : ", majorityElement([]int{1, 2}))
+	// fmt.Println("majorityElement : ", palindromePairs([]string{"abcd", "dcba", "lls", "s", "sssll"}))
 
 }
